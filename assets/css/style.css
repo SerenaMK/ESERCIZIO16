@@ -61,10 +61,14 @@ h1 {
     text-decoration: line-through;
 }
 
+#buttons, #todoList {
+    text-align: center;
+    margin: 0 auto 2em;
+}
+
 #todoList {
     color: #462f7a;
-    margin: 1em;
-    padding: 0 2em;
+    padding: 0 2em 1em;
     border: 3px solid white;
     width: fit-content;
 }
