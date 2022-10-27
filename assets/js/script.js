@@ -74,13 +74,14 @@ let lista = document.querySelectorAll(".opzioniLista");
 for (var i = 0; i < lista.length; i++) {
     lista[i].addEventListener("click", function () {
         this.classList.toggle("checked");
+        this.style.listStyle = "disc";
     });
 
     lista[i].addEventListener("mouseover", function () {
-        this.style.color = "red";
+        this.style.color = "#795eb9";
     });
 
     lista[i].addEventListener("mouseout", function () {
-        this.style.color = "black";
+        this.style.color = "#2e1c59";
     });
 }
