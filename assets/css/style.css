@@ -3,23 +3,28 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background: linear-gradient(90deg, #a1efff, #7ce4ed, #56d9d7, #30cdbc, #00c09e);
 }
 
 h1 {
     text-align: center;
     padding: 50px;
+    color: darkcyan;
 }
 
 #menu {
     color: white;
-    background-color: #3312E7;
+    background-color: #462f7a;
     padding: 0.7em 1em;
     border: none;
     font-size: 1.2em;
+    /* text-transform: uppercase; */
 }
 
 #menu:focus {
-    background-color: #549EF0;
+    background-color: #c1afeb;
+    color: #462f7a;
+    font-weight: bold;
 }
 
 #opzioniMenu {
@@ -29,7 +34,6 @@ h1 {
     list-style: none;
     padding: 0;
     width: fit-content;
-    background-color: #937AF5;
     font-size: 1.1em;
 }
 
@@ -38,6 +42,8 @@ h1 {
     color: black;
     display: block;
     padding: 0.8em 6em 0.8em 1em;
+    color: white;
+    background-color: #795eb9;
 }
 
 .opzioniLista {

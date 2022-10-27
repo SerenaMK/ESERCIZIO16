@@ -19,11 +19,11 @@ let sfondoMenu = document.querySelectorAll("#opzioniMenu > a");
 
 for (var i = 0; i < sfondoMenu.length; i++) {
     sfondoMenu[i].addEventListener("mouseover", function () {
-        this.style.backgroundColor = "#C9CBD0";
+        this.style.backgroundColor = "#a18ad9";
     });
 
     sfondoMenu[i].addEventListener("mouseout", function () {
-        this.style.backgroundColor = "#937AF5";
+        this.style.backgroundColor = "#795eb9";
     });
 }
 
@@ -46,7 +46,7 @@ grande.addEventListener("click", function () {
 
 // COLORE
 colore.addEventListener("click", function () {
-    titolo.style.color = "red";
+    titolo.style.color = "#6449a5";
 });
 
 // MAIUSCOLO
